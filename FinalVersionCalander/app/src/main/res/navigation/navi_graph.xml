@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi_graph"
+    app:startDestination="@id/example3Fragment2">
+    <fragment
+        android:id="@+id/example3Fragment2"
+        android:name="com.life.finalversioncalander.MyCalendarFragment"
+        android:label="example_3_fragment"
+        tools:layout="@layout/calendar_fragment" />
+</navigation>
